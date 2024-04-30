@@ -1,0 +1,81 @@
+#nav-bar{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+ }
+ /* Modal Content */
+ #accordion-padding-one{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 2px;
+ 
+ }
+ 
+ 
+ 
+ #subject-title{
+    border: none;
+    font-size: xx-large;
+    padding: 0px;
+    
+  
+ }
+   #add-task{
+    max-width: 83%;
+   }
+ #button-addon2{
+    margin-top: -16%;
+    margin-left: 86%;
+ }
+ ul.list-group{
+    --bs-list-group-item-padding-x:0rem ;
+    --bs-list-group-item-padding-y:0rem ;
+    font-size: medium;
+    --bs-list-group-border-color: none;
+    
+ 
+ }
+ 
+ div.accordion-item{
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+ }
+ 
+ .total-accordion{
+    padding: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+ }
+ 
+ /* Note Card Content */
+ 
+ 
+ #delete-btn {
+    border: none;
+    margin-top: 220px;
+    margin-left: 170px;
+    padding: 0px;
+    font-size: small;
+    color: rgb(118, 118, 121);
+   
+ } 
+ 
+ .container {
+    background-color: pink;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: wrap
+    
+ }
+ .col{
+ 
+    margin-left: 40px;
+    height: 300px;
+    width: 300px;
+    
+ 
+ }
