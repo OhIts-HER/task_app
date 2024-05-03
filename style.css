@@ -61,21 +61,28 @@
    
  } 
  
- .container {
-    background-color: pink;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    white-space: wrap
-    
- }
- .col{
- 
-    margin-left: 40px;
-    height: 300px;
-    width: 300px;
-    
+/* index page */
+ #note-card {
+   background-color: aqua;
+
  
  }
+.col{
+   width: 300px;
+   height: 300px;
+   text-overflow: ellipsis;
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+   white-space:wrap;
+
+  
+  
+
+   margin-left:6%;
+   margin-top: 50px; 
+ 
+   border-color: black;
+   border-style: solid;
+}
+
