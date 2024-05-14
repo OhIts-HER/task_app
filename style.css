@@ -51,38 +51,42 @@
  /* Note Card Content */
  
  
- #delete-btn {
+#delete-btn  {
     border: none;
-    margin-top: 220px;
-    margin-left: 170px;
+    
+    margin-left: 200px;
     padding: 0px;
     font-size: small;
     color: rgb(118, 118, 121);
+    background-color: none;
    
  } 
  
 /* index page */
+
  #note-card {
    background-color: aqua;
-
- 
- }
-.col{
-   width: 300px;
-   height: 300px;
-   text-overflow: ellipsis;
-   position: relative;
-   display: inline-block;
-   overflow: hidden;
-   white-space:wrap;
-
+   width: 400px;
+   
   
   
-
-   margin-left:6%;
-   margin-top: 50px; 
+   /* margin-left:4%;
+   margin-top: 50px;  */
  
    border-color: black;
    border-style: solid;
 }
 
+
+   
+
+
+.body-text{
+   
+   max-height:300px;
+   text-overflow: ellipsis;
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+   white-space:wrap;
+}
